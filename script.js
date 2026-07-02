@@ -1,4 +1,4 @@
-// Плавный скролл к якорным ссылкам (#download, #features и т.д.)
+// Плавный скролл к якорным ссылкам (#download, #features и #discord)
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', (e) => {
