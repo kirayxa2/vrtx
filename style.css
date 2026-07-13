@@ -444,6 +444,7 @@ nav.vrtx-nav a:hover::after{
   grid-template-columns:repeat(auto-fit, minmax(340px, 560px));
   gap:24px;
   justify-content:center;
+  perspective:1000px;  
 }
 
 .product-card{
@@ -457,8 +458,6 @@ nav.vrtx-nav a:hover::after{
   opacity:0;
   transform:translateY(28px);
   transition:border-color .25s ease, transform .25s ease;
-  transform-style:preserve-3d;
-  perspective:1000px;
   will-change:transform;
 }
 .product-card.is-visible{
